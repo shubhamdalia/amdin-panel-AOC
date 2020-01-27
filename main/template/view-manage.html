@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
+    <!-- video popup -->
+    <link href="../css/jquery.fancybox.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+   
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo"><a href="index.html"><b><img src="../../assets/images/logo.png" alt=""> </b><span class="brand-title"><img src="../../assets/images/logo-text.png" alt=""></span></a>
+            </div>
+            <div class="nav-control">
+                <div class="hamburger"><span class="line"></span>  <span class="line"></span>  <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content">
+                <div class="header-right">
+                    <ul>
+                        <li class="icons">
+                            <a href="javascript:void(0)" class="log-user">
+                                <img src="../../assets/images/avatar/1.jpg" alt=""> <span>Shubham</span>  <i class="fa fa-caret-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-profile animated bounceInDown">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()"><i class="icon-user"></i> <span>My Profile</span></a>
+                                        </li>
+                                        <li><a href="javascript:void()"><i class="icon-wallet"></i> <span>My Wallet</span></a>
+                                        </li>
+                                        <li><a href="javascript:void()"><i class="icon-envelope"></i> <span>Inbox</span></a>
+                                        </li>
+                                        <li><a href="javascript:void()"><i class="fa fa-cog"></i> <span>Setting</span></a>
+                                        </li>
+                                        <li><a href="javascript:void()"><i class="icon-lock"></i> <span>Lock Screen</span></a>
+                                        </li>
+                                        <li><a href="admin-login.html"><i class="icon-power"></i> <span>Logout</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="mega-menu mega-menu-lg">
+                        <a href="institute-application.html" aria-expanded="false">
+                            <i class="mdi  mdi-city"></i><span class="nav-text">New Institute Applications</span></a>
+                          
+                        </li>
+                        <li class="mega-menu mega-menu-lg">
+                        <a  href="manage-application.html" aria-expanded="false">
+                            <i class="mdi mdi-bank"></i><span class="nav-text">Manage Institutes</span></a>
+                        </li>
+                        <li
+                         class="mega-menu mega-menu-lg">
+                            <a  href="manage-student.html" aria-expanded="false">
+                                <i class="mdi mdi-account-multiple"></i><span class="nav-text">Manage Students</span></a>
+                       </li>
+                    </ul>
+           </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <div class="container-fluid">
+                <div class="row page-titles">
+                    <div class="col p-md-0"><h4 class="text-center">View</h4>
+                    </div>
+                    <!-- <div class="col p-md-0">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">App</a>
+                            </li>
+                            <li class="breadcrumb-item active">Profile</li>
+                        </ol>
+                    </div> -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <button class="btn btn-back"><a href="manage-application.html"><i class="mdi mdi-arrow-left"></i></a> </button>
+                          
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="profile-statistics">
+                                                    <div class="text-center mt-4 border-bottom-1 pb-3">
+                                                        <div class="mt-4">
+                                                            <a href="javascript:void()" class="btn btn-primary pl-5 pr-5 mr-3 mb-4">6th Grade</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-blog pt-3 border-bottom-1 pb-1">
+                                                    <h5 class="text-primary d-inline">Hindi</h5><a href="javascript:void()" class="pull-right f-s-16">CBSE</a> 
+                                                </div>
+                                                <div class="profile-interest mt-4 pb-2 border-bottom-1">
+                                                    <div class="row mt-4">
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-success w-100 p-4 my-2">Math</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-primary w-100 p-4 my-2">Physics</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-info w-100 p-4 my-2">Chemistry</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-warning w-100 p-4 my-2">Biology</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-videobox border-bottom-1">
+                                                    <div class="image-element1">
+                                                       
+                                                        <a data-fancybox  class="fancybox-gallery" rel="video-gallery" href="https://www.youtube.com/watch?v=iuimHfnP5aU&list=PLWx-A6wseQ6n-i692JSWuNvZcNTV-ULZu"> <i class="mdi mdi-play-circle"></i></a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="batch_date d-flex justify-content-between my-2 pb-2 border-bottom-1">
+                                                    <p class="font-small text-dark mb-0 d-flex flex-column"><b>Batch Start</b>25th jan,2020</p>
+                                                    <p class="font-small text-dark  d-flex flex-column mb-0"><b>Batch End</b>25th july,2020</p>
+                                                </div>  
+                                                <div class="total text-center mt-lg-4 mt-md-4">
+                                                    <p>Total Enrollments 300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!--col-4 end-->
+                                 
+                                    <div class="col-lg-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="profile-statistics">
+                                                    <div class="text-center mt-4 border-bottom-1 pb-3">
+                                                        <div class="mt-4">
+                                                            <a href="javascript:void()" class="btn btn-primary pl-5 pr-5 mr-3 mb-4">7th Grade</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-blog pt-3 border-bottom-1 pb-1">
+                                                    <h5 class="text-primary d-inline">Hindi</h5><a href="javascript:void()" class="pull-right f-s-16">CBSE</a> 
+                                                </div>
+                                                <div class="profile-interest mt-4 pb-2 border-bottom-1">
+                                                    <div class="row mt-4">
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-success w-100 p-4 my-2">Math</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-primary w-100 p-4 my-2">Physics</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-info w-100 p-4 my-2">Chemistry</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-warning w-100 p-4 my-2">Biology</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-videobox border-bottom-1">
+                                                    <div class="image-element1">
+                                                       
+                                                        <a data-fancybox  class="fancybox-gallery" rel="video-gallery" href="https://www.youtube.com/watch?v=ZfQc2_fJC2U&list=PLWx-A6wseQ6n-i692JSWuNvZcNTV-ULZu&index=2"> <i class="mdi mdi-play-circle"></i></a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="batch_date d-flex justify-content-between my-2 pb-2 border-bottom-1">
+                                                    <p class="font-small text-dark mb-0 d-flex flex-column"><b>Batch Start</b>25th jan,2020</p>
+                                                    <p class="font-small text-dark  d-flex flex-column mb-0"><b>Batch End</b>25th july,2020</p>
+                                                </div>  
+                                                <div class="total text-center mt-lg-4 mt-md-4">
+                                                    <p>Total Enrollments 300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!--col-4 end-->
+
+                                    <div class="col-lg-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="profile-statistics">
+                                                    <div class="text-center mt-4 border-bottom-1 pb-3">
+                                                        <div class="mt-4">
+                                                            <a href="javascript:void()" class="btn btn-primary pl-5 pr-5 mr-3 mb-4">8th Grade</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-blog pt-3 border-bottom-1 pb-1">
+                                                    <h5 class="text-primary d-inline">Hindi</h5><a href="javascript:void()" class="pull-right f-s-16">CBSE</a> 
+                                                </div>
+                                                <div class="profile-interest mt-4 pb-2 border-bottom-1">
+                                                    <div class="row mt-4">
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-success w-100 p-4 my-2">Math</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-primary w-100 p-4 my-2">Physics</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-info w-100 p-4 my-2">Chemistry</span>
+                                                        </div>
+                                                        <div class="col-lg-6 col-xl-6 col-sm-6 col-6 int-col">
+                                                            <span class="label label-warning w-100 p-4 my-2">Biology</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-videobox border-bottom-1">
+                                                    <div class="image-element1">
+                                                       
+                                                        <a data-fancybox  class="fancybox-gallery" rel="video-gallery" href="https://www.youtube.com/watch?v=4PHz5KZ9fpY"> <i class="mdi mdi-play-circle"></i></a>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="batch_date d-flex justify-content-between my-2 pb-2 border-bottom-1">
+                                                    <p class="font-small text-dark mb-0 d-flex flex-column"><b>Batch Start</b>25th jan,2020</p>
+                                                    <p class="font-small text-dark  d-flex flex-column mb-0"><b>Batch End</b>25th july,2020</p>
+                                                </div>  
+                                                <div class="total text-center mt-lg-4 mt-md-4">
+                                                    <p>Total Enrollments 300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!--col-4 end-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed by <a href="https://themeforest.net/user/digitalheaps">Digitalheaps</a>, Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+    
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="../../assets/plugins/common/common.min.js"></script>
+    <script src="../js/custom.min.js"></script>
+    <script src="../js/settings.js"></script>
+    <script src="../js/gleek.js"></script>
+    <script src="../js/jquery.fancybox.js"></script>
+    <script src="../js/styleSwitcher.js"></script>
+</body>
+
+</html>
